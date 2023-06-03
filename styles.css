@@ -7,6 +7,17 @@
 
 body{
     background-color: black;
+    
+    
+}
+
+main{
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img{
@@ -15,9 +26,16 @@ img{
     object-fit: fill;
 }
 
+
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+
 .row{
     display: flex;
     padding: 6px;
+    
 
 }
 
