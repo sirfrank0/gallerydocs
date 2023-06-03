@@ -30,27 +30,28 @@ img{
 h1{
     color: aliceblue;
     text-align: center;
+    margin: 16px;
 }
 
 .row{
     display: flex;
-    padding: 6px;
+    padding: 0 6px 6px 6px;
     
 
 }
 
 .column{
     flex: 25%;
-    padding: 6px;
+    padding: 0 6px 6px 6px;
 }
 
 .column img{
-    margin: 6px;
+    padding: 0 6px 6px 6px;
 }
 
 
 img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
