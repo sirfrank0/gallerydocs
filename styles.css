@@ -1,56 +1,65 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Artifika&display=swap');
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 
-body{
-    background-color: black;
-    
-    
+body {
+    background-color: #04072b;
+    font-family: "Artifika", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-main{
+main {
     margin: auto;
-    max-width: 1200px;
+    max-width: 1800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-img{
+img {
     width: 100%;
-    
+
     object-fit: fill;
 }
 
 
-h1{
-    color: aliceblue;
+h1 {
+    color: #04072b;
     text-align: center;
-    margin: 16px;
+    margin: 24px;
+    background-color: #cfcaeb;
+    max-width: 1800px;
+    padding: 16px;
+    width: calc(100% - 32px);
+    border-radius: 8px;
+    text-transform: uppercase;
 }
 
-.row{
+.row {
     display: flex;
     padding: 0 6px 6px 6px;
-    
+
 
 }
 
-.column{
+.column {
     flex: 25%;
     padding: 0 6px 6px 6px;
 }
 
-.column img{
+.column img {
     padding: 0 6px 6px 6px;
 }
 
 
-img:hover{
+img:hover {
     transform: scale(1.1);
 }
 
@@ -58,4 +67,4 @@ img:hover{
 img {
     transition: transform 0.6s ease;
     border-radius: 16px;
-  }
+}
